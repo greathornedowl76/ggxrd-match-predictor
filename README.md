@@ -13,7 +13,7 @@ Currently uses DarkFlow to detect a character's in-game state (i.e. attacking, a
 Hits are detected through the appearearance of red health in a player's health bar, and the start of a match is detected through the appearahce of "99" on the timer. Takes large influence from nxth's and keeponrockin's ggxrd parsers. 
 
 # Changelog
-11/4/19: Uploaded to Github. Added hit detection by looking for red health during match start, duel starts by detecting "99" in the timer, and victories by checking if the victory bulbs below each character's health bar is on or off.
+11/4/19: Uploaded to Github. Added hit detection by looking for red health during match start, duel starts by detecting "99" in the timer, and victories by checking if the victory bulbs below each character's health bar is on or off. Added ability to OCR rank of a player, bugfixes to OCR name detection.
 
 
 
