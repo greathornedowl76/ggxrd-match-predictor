@@ -8,7 +8,7 @@ The primary goal of this project is to ultimately collect enough data from match
 |:--:| 
 | *From top left to bottom right: attack-lunge, attack-stand, attack-crouch, attack-air, knockdown, advance(run), retreat, neutral, and advance(air dash)* |
 # How It Will Work
-Currently uses DarkFlow to detect a character's in-game state (i.e. attacking, advaning, retreating, etc.). Will be used to create a finite state automoton to detect more advanced neutral states such as counter-attacks and direct-attacks (oki-waza and ate-waza respectively). 
+Currently uses DarkFlow to detect a character's in-game state (i.e. attacking, advaning, retreating, etc.). Will be used to create a finite state automaton to detect more advanced neutral states such as counter-attacks and direct-attacks (oki-waza and ate-waza respectively). 
 
 Hits are detected through the appearearance of red health in a player's health bar, and the start of a match is detected through the appearahce of "99" on the timer. Takes large influence from nxth's and keeponrockin's ggxrd parsers. 
 
