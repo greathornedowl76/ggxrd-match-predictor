@@ -1,5 +1,6 @@
 # ggxrd-match-predictor
-Parses through Guilty Gear Xrd Rev 2 matches to collect data for a match predictor. 
+Parses through Guilty Gear Xrd Rev 2 matches to collect data for a match predictor. Read more below:
+https://saas.berkeley.edu/rp/the-values-of-a-fighter
 
 # Overview
 The primary goal of this project is to ultimately collect enough data from match videos in order to predict the outcome of a given Guilty Gear Xrd Rev 2 match. Currently, this project is deep within the data collection phase. It aims to consider not just surface level traits such as character's played, and player's rank, but also a player's neutral interactions such as direct-attack/counter-attack/second-intention success rates, kd game, and defensive traits. 
